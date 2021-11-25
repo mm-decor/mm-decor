@@ -11,8 +11,6 @@ body {
 
 main {
   display: flex;
-  width: 100vw;
-  height: 100vh;
   background: #fafafa;
 }
 
@@ -127,4 +125,137 @@ main {
   right: 175px;
   top: 50px;
   width: 400px;
+}
+
+@media (max-width: 425px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .section1-2 {
+    order: 2;
+    width: 100vw;
+    height: 80vh;
+  }
+  .section-1 {
+    order: 2;
+    width: 20vw;
+    height: 80vh;
+  }
+  .logo {
+    height: 20vh;
+  }
+  .logo-icon {
+    width: 90px;
+  }
+  .blank-1 {
+    width: 20vw;
+    height: 80vh;
+  }
+  .section-2 {
+    order: 1;
+    width: 80vw;
+    height: 80vh;
+  }
+  .detail {
+    order: 2;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+  }
+  .detail p {
+    width: 50vw;
+  }
+  .location {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .care {
+    margin-bottom: 20px;
+  }
+  .text-box {
+    order: 1;
+    margin: 40px 20px 0px 40px;
+    width: 80%;
+  }
+  .text-box h1 {
+    font-size: 42px;
+  }
+  .text-box p {
+    font-size: 16px;
+  }
+  .section-3 {
+    order: 1;
+    width: 100vw;
+    display: flex;
+    height: 60vh;
+  }
+  .blank-2 {
+    width: 50vw;
+    height: 60vh;
+    background-color: #fafafa;
+  }
+  .vase-icons {
+    width: 50vw;
+    height: 60vh;
+  }
+  .icons a {
+    height: 30px;
+  }
+  .vase {
+    right: 50px;
+    top: 70px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .section1-2 {
+    height: 85vh;
+  }
+  .section-1 {
+    height: 85vh;
+  }
+  .section-2 {
+    height: 85vh;
+  }
+  .location {
+    margin-top: 20px;
+  }
+  .text-box h1 {
+    margin-bottom: 40px;
+  }
+  .vase {
+    right: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section1-2 {
+    height: 90vh;
+  }
+  .section-1 {
+    height: 90vh;
+  }
+  .section-2 {
+    height: 90vh;
+  }
+  .detail {
+    margin-left: 30px;
+  }
+  .text-box {
+    margin-left: 30px;
+  }
+  .text-box h1 {
+    font-size: 38px;
+  }
+  .logo-icon {
+    width: 78px;
+  }
+  .icons a {
+    height: 25px;
+  }
+  .vase {
+    width: 250px;
+  }
 }
