@@ -234,7 +234,7 @@ footer p {
     width: 80vw;
   }
   footer p {
-    bottom: -315px;
+    bottom: unset;
   }
 }
 
@@ -260,7 +260,7 @@ footer p {
   }
   footer p {
     font-size: 9px;
-    bottom: -355px;
+    bottom: unset;
   }
 }
 
@@ -291,6 +291,6 @@ footer p {
   }
   footer p {
     font-size: 8px;
-    bottom: -400px;
+    bottom: unset;
   }
 }
