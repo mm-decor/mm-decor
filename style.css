@@ -177,8 +177,8 @@ footer p {
     justify-content: flex-end;
   }
   .logo-icon {
-    width: 90px;
-    margin-left: -15px;
+    height: 90px;
+    width: fit-content;
   }
   .blank-1 {
     width: 24vw;
