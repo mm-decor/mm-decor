@@ -168,22 +168,25 @@ footer p {
   }
   .section-1 {
     order: 2;
-    width: 20vw;
+    width: 24vw;
     height: 90vh;
   }
   .logo {
     height: 20vh;
+    display: flex;
+    justify-content: flex-end;
   }
   .logo-icon {
     width: 90px;
+    margin-left: -15px;
   }
   .blank-1 {
-    width: 20vw;
+    width: 24vw;
     height: 80vh;
   }
   .section-2 {
     order: 1;
-    width: 80vw;
+    width: 76vw;
     height: 90vh;
   }
   .detail {
