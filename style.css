@@ -234,6 +234,7 @@ footer p {
     width: 80vw;
   }
   footer p {
+    font-size: 8px;
     bottom: unset;
   }
 }
@@ -290,7 +291,6 @@ footer p {
     height: 25px;
   }
   footer p {
-    font-size: 8px;
     bottom: unset;
   }
 }
