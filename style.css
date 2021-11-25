@@ -127,6 +127,22 @@ main {
   width: 400px;
 }
 
+@media (max-width: 1024px) {
+  .vase {
+    right: 90px;
+  }
+}
+
+@media (max-width: 769px) {
+  .logo-icon {
+    width: 90px;
+  }
+  .vase {
+    right: 5px;
+    top: 170px;
+  }
+}
+
 @media (max-width: 425px) {
   main {
     display: flex;
