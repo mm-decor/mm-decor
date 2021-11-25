@@ -127,6 +127,16 @@ main {
   width: 400px;
 }
 
+footer p {
+  font-family: 'Orienta', sans-serif;
+  color: #002832;
+  font-size: 10px;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media (max-width: 1024px) {
   .vase {
     right: 90px;
@@ -223,6 +233,9 @@ main {
     top: 40px;
     width: 80vw;
   }
+  footer p {
+    bottom: -315px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -244,6 +257,10 @@ main {
   .vase {
     right: 20px;
     top: 70px;
+  }
+  footer p {
+    font-size: 9px;
+    bottom: -355px;
   }
 }
 
@@ -271,5 +288,9 @@ main {
   }
   .icons a {
     height: 25px;
+  }
+  footer p {
+    font-size: 8px;
+    bottom: -400px;
   }
 }
